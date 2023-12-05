@@ -1,0 +1,50 @@
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  transition: transform 0.8s ease;
+  border-radius: .5em;
+  z-index: 1000;
+  }
+  .open {
+    transform: translateX(0);
+  }
+  .menu {
+    cursor: pointer;
+  }
+  .submenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 3em; 
+    left: 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .open .submenu {
+    display: flex;
+  }
+  .submenu-item {
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  .center-content {
+    flex-grow: 1;
+    text-align: center;
+  }
+  .logo {
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+  

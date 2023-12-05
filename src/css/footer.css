@@ -1,0 +1,25 @@
+
+
+.contacto-footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .contacto-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contacto-info {
+    margin-top: 20px;
+  }
+  
+  .contacto-info p {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+
+  

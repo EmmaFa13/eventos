@@ -1,0 +1,55 @@
+.banner {
+  position: relative;
+  height: 25em;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.text-banner {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.text-slogan {
+  font-size: 1.5em;
+  font-style: italic;
+  margin-bottom: 1.25em;
+}
+
+.button-container {
+  display: flex;
+  gap: 1.25em;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.625em 1.25em;
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: .5em; 
+}
+
+.btn-primary {
+  background-color: gray;
+}
+
+.btn-secondary {
+  background-color: gray;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: rgb(251, 251, 251);
+}
+
